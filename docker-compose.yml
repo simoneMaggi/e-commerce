@@ -2,7 +2,9 @@
 services:
   stefano:
     build: .
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
     ports:
       - "1313:1313"
     volumes:
-      - ./app:/home/app/website/themes
+      - ./themes:/home/app/website/themes

@@ -10,6 +10,7 @@ RUN rm hugo.deb
 # START A NEW WEBSITE
 WORKDIR /home/app
 RUN hugo new site website
+COPY  ./themes/vex-hugo /home/app/themes/vex-hugo
 
 # da sostituire con un copy o al limite mettere i volume, cosi i cambiamenti da fuori li vedo nel sito
 # RUN cd website
@@ -20,5 +21,5 @@ RUN hugo new site website
 EXPOSE 1313
 
 WORKDIR /home/app/website
-CMD [ "hugo", "server", "--bind",  "0.0.0.0", "-D" ] 
-#CMD ["/bin/bash"]
+# CMD [ "hugo", "server", "--bind",  "0.0.0.0", "-D", "-t vex-hugo" ] 
+CMD ["/bin/bash"]
