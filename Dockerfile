@@ -1,8 +1,5 @@
 FROM ubuntu
 
-#COPY app /home/app
-
-
 # INSTALL HUGO
 RUN apt-get update
 RUN apt-get install -y curl git
@@ -15,15 +12,13 @@ WORKDIR /home/app
 RUN hugo new site website
 
 # da sostituire con un copy o al limite mettere i volume, cosi i cambiamenti da fuori li vedo nel sito
-RUN cd website
-RUN git init
-RUN git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke
-RUN echo "theme = 'ananke'" >> config.toml
+# RUN cd website
+# RUN git init
+# RUN git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke
+# RUN echo "theme = 'ananke'" >> config.toml
 
 EXPOSE 1313
 
-# CMD [ "hugo", "server", "--bind",  "0.0.0.0", "-D" ]
-
-CMD ["/bin/bash"]
-#CMD [ "sudo", "apt", "install", "hugo"]
-#CMD [ "hugo", "server", "--themesDir", "../.."]
+WORKDIR /home/app/website
+CMD [ "hugo", "server", "--bind",  "0.0.0.0", "-D" ] 
+#CMD ["/bin/bash"]

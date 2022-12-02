@@ -1,0 +1,8 @@
+
+services:
+  stefano:
+    build: .
+    ports:
+      - "1313:1313"
+    volumes:
+      - ./app:/home/app/website/themes
