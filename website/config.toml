@@ -1,4 +1,4 @@
 baseURL = 'http://stevenislota.org/'
 languageCode = 'en-us'
 title = 'Stefano si na lotta'
-theme = 'ananke'
+theme = 'vex-hugo'
