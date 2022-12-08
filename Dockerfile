@@ -8,18 +8,19 @@ RUN apt install -y ./hugo.deb
 RUN rm hugo.deb
 
 # START A NEW WEBSITE
-WORKDIR /home/app
-RUN hugo new site website
-COPY  ./themes/vex-hugo /home/app/themes/vex-hugo
+# WORKDIR /home/app
+# RUN hugo new site website
+# COPY  ./themes/vex-hugo /home/app/themes/vex-hugo
 
 # da sostituire con un copy o al limite mettere i volume, cosi i cambiamenti da fuori li vedo nel sito
 # RUN cd website
 # RUN git init
 # RUN git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke
-# RUN echo "theme = 'ananke'" >> config.toml
 
 EXPOSE 1313
 
 WORKDIR /home/app/website
+RUN echo "theme = 'ananke'" >> config.toml
+
 # CMD [ "hugo", "server", "--bind",  "0.0.0.0", "-D", "-t vex-hugo" ] 
 CMD ["/bin/bash"]

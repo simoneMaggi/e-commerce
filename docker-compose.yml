@@ -7,4 +7,4 @@ services:
     ports:
       - "1313:1313"
     volumes:
-      - ./themes:/home/app/website/themes
+      - ./website:/home/app/website
