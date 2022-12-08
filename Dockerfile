@@ -20,7 +20,7 @@ RUN rm hugo.deb
 EXPOSE 1313
 
 WORKDIR /home/app/website
-RUN echo "theme = 'ananke'" >> config.toml
+# RUN echo "theme = '{HUGO_THEME}'" >> config.toml
 
-# CMD [ "hugo", "server", "--bind",  "0.0.0.0", "-D", "-t vex-hugo" ] 
-CMD ["/bin/bash"]
+CMD [ "hugo", "server", "--bind",  "0.0.0.0", "-D"] 
+# CMD ["/bin/bash"]
