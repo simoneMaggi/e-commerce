@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "https://demo.gethugothemes.com/vex/examplesite/"
+baseurl = "https://demo.gethugothemes.com/drunk/"
 title = "Vex | hugo landing page template"
 theme = "vex-hugo"
 # post excert
@@ -95,9 +95,9 @@ logo = "images/logo.png"
 logo_width = "100px"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "simoneMaggi"
 # currency
-currency = "$"
+currency = "€"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 

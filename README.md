@@ -19,6 +19,8 @@ $ docker-compose build
 # Start local dev server
 $ docker-compose up
 ```
+The website will be accessible at http://localhost:1313/drunk/
+
 
 To update after a change 
 
