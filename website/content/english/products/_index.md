@@ -1,6 +1,6 @@
 ---
-title: "The best t-shirt for tell everyone how much you like being drunk"
-description : "t-shirt beautifull"
+title: "Stay hungry, foolish, stay sbronz"
+description : "shop"
 draft: false
 ---
 

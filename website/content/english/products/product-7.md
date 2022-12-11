@@ -1,11 +1,11 @@
 ---
-title: "OnePlus Watch"
+title: "Alcol Buono"
 date: 2019-10-17T11:22:16+06:00
 images: 
-  - "images/showcase/showcase-7.png"
-  - "images/showcase/showcase-5.png"
-  - "images/showcase/showcase-3.png"
-  - "images/showcase/showcase-4.png"
+  - "images/showcase/alcol.jpg"
+  # - "images/showcase/showcase-5.png"
+  # - "images/showcase/showcase-3.png"
+  # - "images/showcase/showcase-4.png"
 
 # meta description
 description : "this is meta description"

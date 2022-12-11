@@ -1,9 +1,9 @@
 ############################# banner ############################
 banner:
   enable: true
-  title: "This website is an apology to alcholism"
+  title: "Drink is fine if you drink with style"
   content: "Muslims stay away, teetotaler not allowed, of chistian religion we keep only blood of God, wine. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
-  image: "images/watch.png"
+  image: "images/t_shirt1.jpeg"
   button:
     enable: true
     label: "Browse All Products"
@@ -13,7 +13,7 @@ banner:
 features:
   enable: true
   title: "Our Core Features"
-  image: "images/watch-2.png"
+  image: "images/felpa1.jpeg"
 
   # feature at the left of the image
   left_side:
@@ -52,7 +52,7 @@ features:
 ############################# promo ############################
 promo:
   enable: true
-  image: "images/watch.png"
+  image: "images/felpa1.jpeg"
   title: "Designed by professional , the benefit for creative gigs"
   content:
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
@@ -97,7 +97,7 @@ products:
 ################################## Subscription ###################
 subscription:
   enable: true
-  bg_image: "images/call-to-action.jpg"
+  bg_image: "images/songstefano.jpg"
   title: "Get Product Updates"
   content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
   placeholder: "Your Email Address Here"

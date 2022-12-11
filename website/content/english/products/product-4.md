@@ -1,11 +1,11 @@
 ---
-title: "Motorola Watch"
+title: "T-shirt alcolizzata 1"
 date: 2019-10-17T11:22:16+06:00
 images: 
-  - "images/showcase/showcase-4.png"
-  - "images/showcase/showcase-2.png"
-  - "images/showcase/showcase-3.png"
-  - "images/showcase/showcase-1.png"
+  - "images/showcase/t_shirt1.jpeg"
+  # - "images/showcase/showcase-2.png"
+  # - "images/showcase/showcase-3.png"
+  # - "images/showcase/showcase-1.png"
 
 # meta description
 description : "this is meta description"
