@@ -1,6 +1,6 @@
 ################################### Default Configuration ############################
-baseurl = "https://demo.gethugothemes.com/drunk/"
-title = "Vex | hugo landing page template"
+baseurl = "https://c5c3-151-31-230-23.eu.ngrok.io/drunk/"
+title = "Steven drink shop"
 theme = "vex-hugo"
 # post excert
 summarylength = "20"
@@ -94,7 +94,7 @@ weight = 4
 logo = "images/logo.png"
 logo_width = "100px"
 # Meta data
-description = "This is meta description"
+description = "This is the steven drinks official shop"
 author = "simoneMaggi"
 # currency
 currency = "€"
