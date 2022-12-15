@@ -12,7 +12,4 @@ EXPOSE 1313
 
 WORKDIR /home/app/website
 
-# https://gohugo.io/hosting-and-deployment/deployment-with-rsync/
-#CMD ["hugo", "server", "-b", "https://e359-151-31-230-23.eu.ngrok.io", "--bind", "0.0.0.0", "--appendPort=false", "--liveReloadPort=443", "--disableFastRender"]
-# CMD [ "hugo", "server", "--bind",  "0.0.0.0", "-D"] 
-CMD ["/bin/bash"]
+CMD ["hugo"]
