@@ -2,7 +2,10 @@
 banner:
   enable: true
   title: "Drink is fine if you drink with style"
-  content: "Muslims stay away, teetotaler not allowed, of chistian religion we keep only blood of God, wine. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
+  content: "Lo vedi, ecco Marino, la sagra c'è dell'uva
+            Fontane che danno vino, quant'abbondanza c'è
+            Appresso vie' Genzano cor pittoresco Albano
+            Su, viett'a diverti', Nannì, Nannì"
   image: "images/t_shirt1.jpeg"
   button:
     enable: true
@@ -20,46 +23,45 @@ features:
     # feature item loop
     - title: "Smooth Touch"
       icon: "tf-ion-ios-alarm-outline"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      content: "Là c'è l'Ariccia, più giù c'è Castello Ch'è davero un gioiello co' quel lago da incanta'"
 
       # feature item loop
     - title: "Elegant Design"
       icon: "tf-ion-ios-bell-outline"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      content: "E de fravole 'n profumo solo a Nemi pòi senti' Sotto quel lago un mistero ce sta De Tibberio le navi so' l'antica civirtà"
 
       # feature item loop
     - title: "Easy Pricing"
       icon: "tf-ion-ios-cart-outline"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      content: "So' mejo de lo sciampagna li vini de 'ste vigne Ce fanno la cuccagna dar tempo de Noè"
 
   # feature at the right of the image
   right_side:
     # feature item loop
     - title: "Smooth Touch"
       icon: "tf-ion-ios-alarm-outline"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      content: "So' mejo de lo sciampagna li vini de 'ste vigne Ce fanno la cuccagna dar tempo de Noè"
 
       # feature item loop
     - title: "Elegant Design"
       icon: "tf-ion-ios-bell-outline"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      content: "So' mejo de lo sciampagna li vini de 'ste vigne Ce fanno la cuccagna dar tempo de Noè"
 
       # feature item loop
     - title: "Easy Pricing"
       icon: "tf-ion-ios-cart-outline"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      content: "So' mejo de lo sciampagna li vini de 'ste vigne Ce fanno la cuccagna dar tempo de Noè"
 
 ############################# promo ############################
 promo:
   enable: true
   image: "images/felpa1.jpeg"
   title: "Designed by professional , the benefit for creative gigs"
-  content:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
-    nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
-    <br><br>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
-
+  content: "Là c'è l'Ariccia, più giù c'è Castello
+      Ch'è davero un gioiello co' quel lago da incanta'
+E de fravole 'n profumo solo a Nemi pòi senti'
+Sotto quel lago un mistero ce sta
+De Tibberio le navi so' l'antica civirtà"
 ############################# About Product #######################
 about_product:
   enable: true
@@ -69,9 +71,11 @@ about_product:
     - image: "images/showcase/showcase-4.png"
       title: "Lorem ipsum dolor sit amet."
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-        sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-        quas, quo harum deserunt consequatur cumque!"
+       "Là c'è l'Ariccia, più giù c'è Castello
+      Ch'è davero un gioiello co' quel lago da incanta'
+E de fravole 'n profumo solo a Nemi pòi senti'
+Sotto quel lago un mistero ce sta
+De Tibberio le navi so' l'antica civirtà" 
       button:
         enable: false
         label: "Check Features"
@@ -81,9 +85,11 @@ about_product:
     - image: "images/showcase/showcase-3.png"
       title: "Lorem ipsum dolor sit amet."
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-        sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-        quas, quo harum deserunt consequatur cumque!"
+        "Là c'è l'Ariccia, più giù c'è Castello
+      Ch'è davero un gioiello co' quel lago da incanta'
+E de fravole 'n profumo solo a Nemi pòi senti'
+Sotto quel lago un mistero ce sta
+De Tibberio le navi so' l'antica civirtà"
       button:
         enable: false
         label: "Check Features"
@@ -109,7 +115,7 @@ testimonial:
   testimonial_item:
     # testimonial item loop
     - name: "Antolama Marini"
-      designation: "Rotelle Pomerda World Champion, gold medal"
+      designation: "Rotelle Pomerda World Champion"
       image: "images/avater.png"
       content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
 
