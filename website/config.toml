@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "https://c5c3-151-31-230-23.eu.ngrok.io/drunk/"
+baseurl = "https://steven-drunk-ah69z.ondigitalocean.app/"
 title = "Steven drink shop"
 theme = "vex-hugo"
 # post excert
