@@ -16,7 +16,7 @@ banner:
 features:
   enable: true
   title: "Our Core Features"
-  image: "images/felpa1.jpeg"
+  image: "images/scrushirt.jpeg"
 
   # feature at the left of the image
   left_side:
