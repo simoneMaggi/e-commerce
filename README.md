@@ -1,3 +1,10 @@
+# Website for a friend
+
+A simple static website based on [vex-hugo]( https://github.com/themefisher/vex-hugo ) template for Hugo framework. Deployed for free in digitalocean [here]( https://steven-drunk-ah69z.ondigitalocean.app/ )
+This contanerized version makes things even more simple.
+
+
+
 ## Prerequisites
 
 - Linux or wsl
