@@ -17,6 +17,7 @@ Available options:
 -d, --deploy    Deploy the website with hugo
 -r, --restart   Restart local server to update changes
 -s, --start     Start local server
+-c, --clean     Clean all the cache, remove all containers
 EOF
   exit
 }
@@ -37,7 +38,12 @@ develop() {
 }
 
 restart() {
-    docker-compose -f docker-compose.develop.yml restart
+    docker restart e-commerce_stefano_1
+}
+
+clean() {
+    docker-compose -f docker-compose.develop.yml down
+
 }
 
 die() {
@@ -58,6 +64,7 @@ parse_params() {
     -d | --deploy) deploy ;;
     -s | --start) develop ;;
     -r | --restart) develop ;;
+    -c | --clean) clean ;;
     -?*) die "Unknown option: $1" ;;
     *) break ;;
     esac

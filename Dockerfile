@@ -11,7 +11,7 @@ WORKDIR /home/app/website
 
 FROM base AS hugo-develop
 EXPOSE 1313
-CMD [ "hugo", "server", "--bind",  "0.0.0.0", "-D"]
+CMD [ "hugo", "server", "--bind",  "0.0.0.0", "-D", "--disableFastRender"]
 
 FROM base AS hugo-deploy
 CMD ["hugo"]

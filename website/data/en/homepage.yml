@@ -6,7 +6,7 @@ banner:
             Fontane che danno vino, quant'abbondanza c'è
             Appresso vie' Genzano cor pittoresco Albano
             Su, viett'a diverti', Nannì, Nannì"
-  image: "images/t_shirt1.jpeg"
+  image: "images/maglietta_n.png"
   button:
     enable: true
     label: "Browse All Products"
@@ -55,7 +55,7 @@ features:
 ############################# promo ############################
 promo:
   enable: true
-  image: "images/felpa1.jpeg"
+  image: "images/felpa1.png"
   title: "Designed by professional , the benefit for creative gigs"
   content: "Là c'è l'Ariccia, più giù c'è Castello
       Ch'è davero un gioiello co' quel lago da incanta'
@@ -65,10 +65,10 @@ De Tibberio le navi so' l'antica civirtà"
 ############################# About Product #######################
 about_product:
   enable: true
-  title: "Why Choose Apple Watch"
+  title: "Why Choose My Alcoholic Shirts"
   items:
     # about product item loop
-    - image: "images/showcase/showcase-4.png"
+    - image: "images/showcase/t_shirt2.jpeg"
       title: "Lorem ipsum dolor sit amet."
       content:
        "Là c'è l'Ariccia, più giù c'è Castello
@@ -82,7 +82,7 @@ De Tibberio le navi so' l'antica civirtà"
         link: "#/"
 
     # about product item loop
-    - image: "images/showcase/showcase-3.png"
+    - image: "images/showcase/t_shirt3.jpeg"
       title: "Lorem ipsum dolor sit amet."
       content:
         "Là c'è l'Ariccia, più giù c'è Castello

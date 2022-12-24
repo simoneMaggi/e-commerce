@@ -91,8 +91,8 @@ weight = 4
 
 ########################### Default parameters ##########################
 [params]
-logo = "images/logo.png"
-logo_width = "100px"
+logo = "images/logo.jpg"
+logo_width = "36px"
 # Meta data
 description = "This is the steven drinks official shop"
 author = "simoneMaggi"
