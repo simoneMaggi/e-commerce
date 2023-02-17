@@ -1,8 +1,9 @@
 ############################# banner ############################
 banner:
   enable: true
-  title: "Drinking is fine
-          if you drink with style"
+  title: >
+        Drinking is fine <br />
+          if you drink with style
   content: "Steven’s Drinks è un’idea imprenditoriale che cerca di avvicinare il mondo dei bartenders al mondo degli esseri umani. Il principio fondante di Steven’s Drinks è portare questi due mondi in uno stesso livello di comunicazione e abbassare l’altissimo hype che si è creato sul Bartending in modo da concentrarsi sulla ragione principale per la quale una persona sceglie di bere un cocktail : divertirsi e passare un bel momento."
   image: "images/maglietta_n.png"
   button:
