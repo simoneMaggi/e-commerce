@@ -1,12 +1,9 @@
 ############################# banner ############################
 banner:
   enable: true
-  title: "scru is fine \n
-          if you scru with style"
-  content: "Lo vedi, ecco Marino, la sagra c'è dell'uva
-            Fontane che danno vino, quant'abbondanza c'è
-            Appresso vie' Genzano cor pittoresco Albano
-            Su, viett'a diverti', Nannì, Nannì"
+  title: "Drinking is fine
+          if you drink with style"
+  content: "Steven’s Drinks è un’idea imprenditoriale che cerca di avvicinare il mondo dei bartenders al mondo degli esseri umani. Il principio fondante di Steven’s Drinks è portare questi due mondi in uno stesso livello di comunicazione e abbassare l’altissimo hype che si è creato sul Bartending in modo da concentrarsi sulla ragione principale per la quale una persona sceglie di bere un cocktail : divertirsi e passare un bel momento."
   image: "images/maglietta_n.png"
   button:
     enable: true
@@ -16,25 +13,25 @@ banner:
 ############################# Feature ############################
 features:
   enable: true
-  title: "Our Core Features"
+  title: "Caratteristiche Principali "
   image: "images/scrushirt.jpeg"
 
   # feature at the left of the image
   left_side:
     # feature item loop
-    - title: "Smooth Touch"
+    - title: "Miglior comunicazione con il barman"
       icon: "tf-ion-ios-alarm-outline"
-      content: "Là c'è l'Ariccia, più giù c'è Castello Ch'è davero un gioiello co' quel lago da incanta'"
+      content: "Se vesti Steven’s Drinks hai il doppio delle possibilità di far amicizia col bartender e in un terzo delle possibilità ci finisci a letto! "
 
       # feature item loop
-    - title: "Elegant Design"
+    - title: "Abbigliamento elegante"
       icon: "tf-ion-ios-bell-outline"
-      content: "E de fravole 'n profumo solo a Nemi pòi senti' Sotto quel lago un mistero ce sta De Tibberio le navi so' l'antica civirtà"
+      content: "Il design è creato in modo da non crearti problemi se decidi di andare a bere in un baretto da quattro soldi o nel cocktail bar più elegante del mondo. Per capire veramente di che stoffa sei fatto devono leggere quello che c’è scritto! Una volta che capiscono chi hanno davanti sei fottuto, tutti e tutte ti vorranno con te! "
 
       # feature item loop
-    - title: "Easy Pricing"
+    - title: "Prezzi alla portata d’amaro"
       icon: "tf-ion-ios-cart-outline"
-      content: "So' mejo de lo sciampagna li vini de 'ste vigne Ce fanno la cuccagna dar tempo de Noè"
+      content: "Ti ricordi quant’è bello quando il barman offre il giro d’amari, quanto ti rende felice? Bene, voglio renderti felice ma non sono manco Babbo Natale!"
 
   # feature at the right of the image
   right_side:
@@ -60,9 +57,9 @@ promo:
   title: "Designed by professional , the benefit for creative gigs"
   content: "Là c'è l'Ariccia, più giù c'è Castello
       Ch'è davero un gioiello co' quel lago da incanta'
-E de fravole 'n profumo solo a Nemi pòi senti'
-Sotto quel lago un mistero ce sta
-De Tibberio le navi so' l'antica civirtà"
+        E de fravole 'n profumo solo a Nemi pòi senti'
+        Sotto quel lago un mistero ce sta
+        De Tibberio le navi so' l'antica civirtà"
 ############################# About Product #######################
 about_product:
   enable: true
