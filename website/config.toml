@@ -1,6 +1,6 @@
 ################################### Default Configuration ############################
-baseurl = "https://demo.gethugothemes.com/drunk/"
-title = "Vex | hugo landing page template"
+baseurl = "https://steven-drunk-ah69z.ondigitalocean.app/"
+title = "Steven drink shop"
 theme = "vex-hugo"
 # post excert
 summarylength = "20"
@@ -91,10 +91,10 @@ weight = 4
 
 ########################### Default parameters ##########################
 [params]
-logo = "images/logo.png"
-logo_width = "100px"
+logo = "images/logo.jpg"
+logo_width = "36px"
 # Meta data
-description = "This is meta description"
+description = "This is the steven drinks official shop"
 author = "simoneMaggi"
 # currency
 currency = "€"

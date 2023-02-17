@@ -1,9 +1,9 @@
 ---
-title: "T-shirt alcolizzata 1"
+title: "Scru Shirt"
 date: 2019-10-17T11:22:16+06:00
 images: 
-  - "images/showcase/t_shirt1.jpeg"
-  # - "images/showcase/showcase-2.png"
+  - "images/showcase/scrushirt_back.jpeg"
+  - "images/scrushirt.jpeg"
   # - "images/showcase/showcase-3.png"
   # - "images/showcase/showcase-1.png"
 
@@ -11,7 +11,7 @@ images:
 description : "this is meta description"
 
 # product Price
-price: "30.00"
+price: "1.00"
 discount_price: "25.00"
 
 # product variation

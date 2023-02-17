@@ -1,5 +1,5 @@
 ---
-title: "Stay hungry, foolish, stay sbronz"
+title: "Stay hungry, Stay foolish, Stay sbronz"
 description : "shop"
 draft: false
 ---

@@ -1,0 +1,8 @@
+
+services:
+  stefano:
+    build: 
+      context: .
+      target: hugo-deploy
+    volumes:
+      - ./website:/home/app/website
