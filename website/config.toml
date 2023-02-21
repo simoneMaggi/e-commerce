@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "https://steven-drunk-ah69z.ondigitalocean.app/"
+baseurl = "https://www.stevendrinks.com/"
 title = "Steven drink shop"
 theme = "vex-hugo"
 # post excert
@@ -91,8 +91,8 @@ weight = 4
 
 ########################### Default parameters ##########################
 [params]
-logo = "images/logo.jpg"
-logo_width = "36px"
+logo = "images/logo_stefano_drinks.png"
+logo_width = "200px"
 # Meta data
 description = "This is the steven drinks official shop"
 author = "simoneMaggi"
