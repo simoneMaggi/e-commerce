@@ -7,7 +7,6 @@ This contanerized version makes things even more simple.
 
 ## Prerequisites
 
-- Linux or wsl
 - Docker
 - Docker-compose
 
